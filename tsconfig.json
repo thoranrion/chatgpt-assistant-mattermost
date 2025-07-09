@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2020",
+    "sourceMap": true,
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "lib": ["ES2020", "DOM"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "types": ["node", "react"]
+  },
+  "ts-node": {
+    "esm": true,
+    "compilerOptions": {
+      "module": "NodeNext",
+    }
+  },
+  "include": ["src"],
+
+  "exclude": ["node_modules"]
+}

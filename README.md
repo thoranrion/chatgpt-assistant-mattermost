@@ -1,6 +1,7 @@
 # Bot ChatGPT Assistant dla Mattermost
 
 Bot komunikuje się z użytkownikami jak zwykły użytkownik Mattermost. To jakby mieć chat.openai.com wbudowany bezpośrednio w Mattermost!
+Aplikacja zbudowana na bazie [chatgpt-mattermost-bot](https://github.com/yGuy/chatgpt-mattermost-bot)
 
 ## Funkcjonalności
 

@@ -7,9 +7,7 @@ Aplikacja zbudowana na bazie [chatgpt-mattermost-bot](https://github.com/yGuy/ch
 
 Bot oferuje następujące możliwości:
 - **Komunikacja w czasie rzeczywistym** - odpowiada na wiadomości w wątkach Mattermost
-- **Kontekst konwersacji** - pamięta historię rozmowy w danym wątku
 - **Asystent OpenAI** - używa predefiniowanego asystenta OpenAI do generowania odpowiedzi
-- **Cachowanie** - asystent i wątki są cachowane dla lepszej wydajności
 - **Obsługa błędów** - automatyczne zarządzanie błędami i ponowne próby
 
 ## Wymagania
@@ -33,7 +31,6 @@ Dostępne opcje można ustawić jako zmienne środowiskowe podczas uruchamiania 
 | NODE_EXTRA_CA_CERTS  | nie      | `/file/to/cert.crt`          | Ścieżka do pliku certyfikatu przekazywana do node.js dla uwierzytelniania certyfikatów z własnym podpisem                                                                                         |
 | MATTERMOST_BOTNAME   | nie      | `"@chatgpt"`                 | Nazwa użytkownika bota w Mattermost, domyślnie '@chatgpt'                                                                                                                                          |
 | DEBUG_LEVEL          | nie      | `TRACE`                      | Poziom debugowania używany do logowania aktywności, domyślnie `INFO`                                                                                                                               |
-| BOT_CONTEXT_MSG      | nie      | `15`                         | Liczba poprzednich wiadomości dołączanych do konwersacji z ChatGPT, domyślnie 100                                                                                                                 |
 
 
 ## Budowanie obrazu Docker ręcznie
